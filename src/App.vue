@@ -1,28 +1,18 @@
 <script>
-export default {
+import AppHeader from "./components/AppHeader.vue"
+import AppContent from "./components/AppContent.vue"
 
+export default {
+  components: {
+    AppHeader  
+  }
 }
 </script>
 
 <template>
- <body>
-  <div class="header">
-    HEADER
-  </div>
-  <div class="content">
-    Content goes here
-  </div>
-  <div class="big-icons">
-    contiene icone grandi
-  </div>
-  <div class="main">
-    spazio grande con img di sfondo
-  </div>
-  <footer>
-    contiene il footer
-  </footer>
-  
- </body>
+ <AppHeader/>
+ 
+
 </template>
 
 <style scoped>

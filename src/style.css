@@ -1,19 +1,17 @@
-.header{
-  border: 2px solid black;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.content{
-   border: 2px solid black;
+img {
+	max-width: 100%;
 }
 
-.big-icons{
-   border: 2px solid black;
-}
+ul{
+    list-style-type: none;
+    margin right: 0px;
+    padding: 0;
+  }
 
-.main{
-   border: 2px solid black;
-}
-
-footer{
-   border: 2px solid black;
-}
+ 

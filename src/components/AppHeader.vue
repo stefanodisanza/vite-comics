@@ -35,9 +35,7 @@ header{
 .container{
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    max-width: 1080px;
-    margin: 0 auto;    
+    align-content: center;    
     padding: 20px;
 }
 ul{

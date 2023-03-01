@@ -4,13 +4,16 @@ import AppContent from "./components/AppContent.vue"
 
 export default {
   components: {
-    AppHeader  
+    // AppHeader;
+    AppContent  
   }
 }
+
 </script>
 
 <template>
  <AppHeader/>
+ <AppContent/>
  
 
 </template>

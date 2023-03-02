@@ -1,12 +1,12 @@
 <script>
 import AppHeader from "./components/AppHeader.vue"
 import AppContent from "./components/AppContent.vue"
-import AppIcons from "./components/AppIcons.vue";
+import AppIcons from "./components/AppIcons.vue"
 
 export default {
   components: {
     AppHeader,
-    AppContent,  
+    AppContent,
     AppIcons
   }
 }
@@ -14,14 +14,9 @@ export default {
 </script>
 
 <template>
- <AppHeader/>
- <AppContent/>
- <AppIcons/>
- 
-
+  <AppHeader />
+  <AppContent />
+  <AppIcons />
 </template>
 
-<style scoped>
-
-
-</style>
+<style scoped></style>

@@ -21,7 +21,7 @@ export default {
                     <li>Videos</li>
                     <li>Fans</li>
                     <li>News</li>
-                    <li>Shop</li>                        
+                    <li>Shop</li>
                 </ul>
             </div>
         </div>
@@ -29,22 +29,25 @@ export default {
 </template>
 
 <style scoped>
-header{
+header {
     background-color: white;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
-    align-content: center;    
+    align-content: center;
     padding: 20px;
 }
-ul{
+
+ul {
     display: flex;
 }
-.logo{
+
+.logo {
     width: 60px;
 }
-li{
+
+li {
     margin: 10px;
-  }
-</style>
+}</style>

@@ -101,9 +101,21 @@ export default {
 
 <style lang="scss" scoped>
 .content {
-    background-color: black;
+    background-color: #1C1C1C;
 
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 15%;
+}
+
 
 .container {
     display: flex;

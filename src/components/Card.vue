@@ -2,7 +2,6 @@
     <li class="card">
         <img :src="src" alt="">
         <span>{{ series }}</span>
-        <span>{{ price }}</span>
     </li>
 </template>
   
@@ -23,10 +22,13 @@ export default {
 .card {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+
 }
+
+
 
 img {
     width: 150px;
+    margin-bottom: 10px;
 }
 </style>

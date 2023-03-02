@@ -1,3 +1,14 @@
+<template>
+    <main class="content">
+        <div class="container">
+            <ul class="grid">
+                <Card class="col" v-for="(comic, i) in comics" :key="i" :thumb="comic.thumb" :series="comic.series"
+                    :price="comic.price" :src="comic.src" />
+            </ul>
+        </div>
+    </main>
+</template>
+
 <script>
 import Card from './Card.vue'
 export default {
@@ -8,7 +19,7 @@ export default {
         return {
             comics: [
                 {
-                    thumb: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
+                    src: "/public/batman.jpeg",
                     price: "$19.99",
                     series: "Action Comics",
                     type: "comic book"
@@ -86,19 +97,12 @@ export default {
 }
 </script>
 
-<template>
-    <main class="content">
-        <div class="container">
-            <ul class="grid">
-                <Card class="col" v-for="(comic, i) in comics" :key="i" :thumb="comic.thumb" :src="comic.src" />
-            </ul>
-        </div>
-    </main>
-</template>
+
 
 <style lang="scss" scoped>
 .content {
     background-color: black;
+
 }
 
 .container {

@@ -1,32 +1,28 @@
 <template>
     <li class="card">
-      <img :src="src" alt="">
-      <h3 class="card__title">{{ series }}</h3>
+        <img :src="src" alt="">
+        <div>{{ thumb }}</div>
+        <h5>{{ series }}</h5>
+        <span>{{ price }}</span>
     </li>
-  </template>
+</template>
   
-  <script>
-    export default {
-      props: {
+<script>
+export default {
+    props: {
+        thumb: String,
         series: String,
-        src: String,
-      }
+        price: String,
     }
-  
-    // function somma(a,b) {
-    //   return a + b
-    // }
-  
-    // somma(5,10)
-  </script>
-  
-  <style scoped>
+}
 
+
+</script>
   
-  .card{
-    background-color: antiquewhite;
+<style scoped>
+.card {
+
     padding: 20px;
     border: 2px solid red;
-  }
-  
-  </style>
+}
+</style>
